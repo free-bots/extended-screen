@@ -1,0 +1,13 @@
+{
+    "uuid": "extended-screen@free-bots.github.io",
+    "name": "Extended Screen",
+    "description": "Enables Gnome 42 hidden extending screen feature",
+    "shell-version": [
+        "42"
+    ],
+    "session-modes": [
+        "user"
+    ],
+    "url": "https://gitlab.gnome.org/World/ShellExtensions/example",
+    "version": 1
+}
