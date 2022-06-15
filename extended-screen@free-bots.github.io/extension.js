@@ -22,7 +22,6 @@ class Extension {
     }
 
     enable() {
-        log(`enabling ${Me.metadata.name}`);
         this._initMirrorSettingsObject();
 
         let indicatorName = `${Me.metadata.name} Indicator`;
@@ -38,8 +37,6 @@ class Extension {
     }
 
     disable() {
-        log(`disabling ${Me.metadata.name}`);
-
         this._destroyMirrorSettingsObject();
         this._indicator.destroy();
         this._indicator = null;
@@ -120,7 +117,5 @@ class Extension {
 
 
 function init() {
-    log(`initializing ${Me.metadata.name}`);
-
     return new Extension();
 }
