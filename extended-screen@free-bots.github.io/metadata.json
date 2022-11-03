@@ -1,10 +1,11 @@
 {
     "uuid": "extended-screen@free-bots.github.io",
     "name": "Extended Screen",
-    "description": "Enables Gnome 42 hidden extending screen feature",
+    "description": "Enables Gnome's hidden extending screen feature. Available at version 42+.",
     "shell-version": [
-        "42"
+        "42",
+        "43"
     ],
     "url": "https://github.com/free-bots/extended-screen",
-    "version": 1
+    "version": 2
 }
